@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A&E Lane — Prong Collar Instructions | ProgressNow</title>
+  <meta name="description" content="A&E Lane Prong Collar — How to measure, fit, and safely use your prong collar. Link to Amazon listing and customer support." />
+  <style>
+    /* Basic, clean responsive styling */
+    :root{
+      --accent:#2266aa;
+      --accent-2:#0b66b3;
+      --muted:#666;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --maxw:980px;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#123;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      background:linear-gradient(180deg, var(--bg), #eef6fb 120px);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:28px 16px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--maxw);margin:0 auto;}
+    header.site{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:22px;
+    }
+    .brand{
+      display:flex;gap:14px;align-items:center;
+    }
+    .logo{
+      width:72px;height:72px;border-radius:10px;background:#fff;border:1px solid #e6eef8;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);
+      box-shadow:0 4px 18px rgba(10,40,60,0.06);
+    }
+    .title h1{font-size:20px;margin:0;}
+    .title p{margin:2px 0 0;font-size:13px;color:var(--muted);}
+    .actions{display:flex;gap:8px;align-items:center;}
+    .btn{
+      background:var(--accent);
+      color:#fff;padding:10px 14px;border-radius:10px;border:none;font-weight:600;text-decoration:none;display:inline-flex;gap:10px;align-items:center;
+      box-shadow:0 6px 16px rgba(12, 80, 150, 0.08);
+    }
+    .btn.secondary{background:#fff;color:var(--accent);border:1px solid #e6eef8;}
+    main{display:grid;grid-template-columns:1fr;gap:18px;}
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(11,33,66,0.04);}
+    .hero{display:flex;gap:20px;align-items:center;}
+    .hero .photo{width:180px;height:140px;border-radius:10px;background:#f2f6fb;border:1px dashed #e0eefc;display:flex;align-items:center;justify-content:center;color:#9bb7da;font-size:13px;}
+    .hero p{margin:0;color:var(--muted);}
+    h2{margin:0 0 10px 0;font-size:18px;}
+    .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;}
+    .step{padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff);border:1px solid #eef6fb;}
+    ol{padding-left:18px;margin:8px 0 0 0;color:var(--muted);}
+    table{width:100%;border-collapse:collapse;margin-top:10px;}
+    th,td{padding:8px 10px;border-bottom:1px solid #f0f4f9;text-align:left;font-size:14px;}
+    th{background:#fafcff;font-weight:700;}
+    .note{font-size:13px;color:#5b6b7c;margin-top:8px;}
+    .warn{background:#fff4f4;border:1px solid #ffd6d6;padding:10px;border-radius:8px;color:#8a1d1d;font-weight:600;}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media (max-width:720px){.grid-2{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start}.logo{width:56px;height:56px}}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center;}
+    .support{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+    .small{font-size:13px;color:var(--muted)}
+    .video-wrap{background:#000;border-radius:8px;min-height:160px;display:flex;align-items:center;justify-content:center;color:#fff}
+    /* Print friendly */
+    @media print{
+      body{background:#fff;padding:0}
+      .btn, .actions {display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header class="site" aria-label="A and E Lane product header">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" id="logo">A&E<br/>Lane</div>
+        <div class="title">
+          <h1>A&E Lane — Prong Collar Instructions</h1>
+          <p>Official product page by ProgressNow</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <!-- REPLACE the href below with your actual Amazon product link -->
+        <a class="btn" id="buyBtn" href="https://www.amazon.com/dp/YOUR_PRODUCT_ASIN" target="_blank" rel="noopener noreferrer" aria-label="Buy on Amazon">
+          Buy on Amazon
+        </a>
+        <button class="btn secondary" onclick="window.print()" aria-label="Print instructions">Print Instructions</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="card hero" aria-labelledby="heroTitle">
+        <div>
+          <h2 id="heroTitle">Quick Start — Measure · Fit · Train</h2>
+          <p class="small">Scan the QR on your product to return to this page anytime for sizing help, safety tips, and support.</p>
+          <p style="margin-top:10px;">
+            <strong>Recommended use:</strong> For controlled walking and training sessions. Not a tethering device. Follow these instructions carefully for safe use.
+          </p>
+          <p class="note">If you have product photos, replace the placeholder image in the page with your image file (see HTML comments).</p>
+        </div>
+
+        <div class="photo" aria-hidden="true">
+          <!-- Replace this DIV with an <img> tag for real product photo, e.g.
+               <img src="images/prong-collar.jpg" alt="A&E Lane prong collar" style="width:100%;height:100%;object-fit:cover;border-radius:8px" />
+          -->
+          Product Photo
+        </div>
+      </section>
+
+      <!-- MEASURE -->
+      <section class="card" aria-labelledby="measureTitle">
+        <h2 id="measureTitle">How to Measure Your Dog's Neck</h2>
+        <div class="grid-2">
+          <div>
+            <div class="steps" role="list">
+              <div class="step" role="listitem">
+                <strong>1. Tools</strong>
+                <ol>
+                  <li>Soft cloth measuring tape (preferred) or a string + ruler.</li>
+                </ol>
+              </div>
+              <div class="step" role="listitem">
+                <strong>2. Position</strong>
+                <ol>
+                  <li>Measure <strong>high on the neck</strong>, directly behind the ears and under the jawline — this is the working position for prong collars.</li>
+                </ol>
+              </div>
+              <div class="step" role="listitem">
+                <strong>3. Snug fit</strong>
+                <ol>
+                  <li>The tape should be snug but not tight — just enough so it won’t slip. Record the measurement in inches.</li>
+                </ol>
+              </div>
+              <div class="step" role="listitem">
+                <strong>4. Match size</strong>
+                <ol>
+                  <li>Use the chart on the right to choose your collar size. When in doubt, choose the next size up for thick-coated breeds.</li>
+                </ol>
+              </div>
+            </div>
+            <p class="note">Tip: If your dog has loose skin or a deep coat, press the coat down at the measuring point to get an accurate neck circumference.</p>
+          </div>
+
+          <div>
+            <table aria-label="Sizing chart">
+              <thead>
+                <tr><th>Neck Circumference (in)</th><th>Recommended Collar Size</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>10 – 12 in</td><td>Small</td></tr>
+                <tr><td>12 – 14 in</td><td>Small/Medium</td></tr>
+                <tr><td>14 – 16 in</td><td>Medium</td></tr>
+                <tr><td>16 – 18 in</td><td>Medium/Large</td></tr>
+                <tr><td>18 – 20 in</td><td>Large</td></tr>
+                <tr><td>20 – 24 in</td><td>Extra Large</td></tr>
+              </tbody>
+            </table>
+
+            <p class="note"><strong>Sizing considerations:</strong> These are general guidelines — check the collar product page on Amazon for exact link counts and size-specific specs. If your measurement falls exactly on the boundary, choose the larger size for comfort.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FIT & USE -->
+      <section class="card" aria-labelledby="useTitle">
+        <h2 id="useTitle">How to Fit & Use Your Prong Collar — Safety First</h2>
+
+        <div style="display:grid;gap:12px;">
+          <div class="warn" role="alert">
+            Important safety reminder: Prong collars are training tools and must be used responsibly. <strong>Never</strong> leave a prong collar on an unattended dog. Do not use constant pressure, and consult a certified trainer or veterinarian if unsure.
+          </div>
+
+          <div>
+            <h3 style="margin:6px 0;">Fitting Instructions (step-by-step)</h3>
+            <ol>
+              <li><strong>Assemble</strong> the collar per the product instructions. The collar should sit high on the neck, just behind the ears, with the prong ends facing inward toward the dog's neck.</li>
+              <li><strong>Size for snugness:</strong> The collar should be snug enough that it won't slide down to the throat. It should not be so tight that it constricts breathing.</li>
+              <li><strong>Attach leash:</strong> Clip the leash to the live D-ring (the ring intended for training corrections). Do not attach to safety clips used only for holding the collar closed during storage.</li>
+              <li><strong>Short corrections:</strong> Use quick, gentle corrections — not continuous pulling. The goal is a reminder, not pain or prolonged pressure.</li>
+              <li><strong>Supervision & time:</strong> Use the collar only during short training or walking sessions. Remove for play, sleep, or unsupervised periods.</li>
+            </ol>
+          </div>
+
+          <div>
+            <h3 style="margin:6px 0;">Best Practices</h3>
+            <ul>
+              <li>Combine prong collar use with reward-based training for best results.</li>
+              <li>Keep sessions short (5–10 minutes) and end on a positive note.</li>
+              <li>Check collar fit and prongs regularly for damage or wear.</li>
+              <li>If your dog shows signs of distress, stop and consult a professional.</li>
+            </ul>
+          </div>
+
+          <div class="video-wrap" aria-hidden="false" id="videoBlock">
+            <!-- If you have a hosted tutorial video, replace the text below with an iframe embed (YouTube/Vimeo) or local video tag:
+                 <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="How to fit a prong collar" allowfullscreen style="width:100%;height:100%;border-radius:8px"></iframe>
+            -->
+            Tutorial video / diagram (add your video here)
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ / Contact -->
+      <section class="card" aria-labelledby="contactTitle">
+        <h2 id="contactTitle">Need Help? Contact & FAQ</h2>
+        <div style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap;">
+          <div style="flex:1;min-width:240px;">
+            <p class="small">If you have questions about fit or product features, email our support team:</p>
+            <!-- Replace support@example.com with your actual support address -->
+            <p><strong>Email:</strong> <a href="mailto:support@progressnow.llc">support@progressnow.llc</a></p>
+            <p class="small">Find the product listing on Amazon for full specs and reviews.</p>
+            <p style="margin-top:8px;">
+              <a class="btn" href="https://www.amazon.com/dp/YOUR_PRODUCT_ASIN" target="_blank" rel="noopener noreferrer">View on Amazon</a>
+            </p>
+          </div>
+
+          <div style="flex:1;min-width:240px;">
+            <h3 style="margin:4px 0;">Common Questions</h3>
+            <p><strong>Q:</strong> Can my dog wear the prong collar all the time?<br><strong>A:</strong> No — only during training or supervised walks. Remove it for play, rest, or unsupervised times.</p>
+            <p><strong>Q:</strong> Is a prong collar painful?<br><strong>A:</strong> When used correctly it provides short, even pressure; it should not cause pain. Proper fit and technique are crucial.</p>
+            <p><strong>Q:</strong> Who should I call for training help?<br><strong>A:</strong> We recommend consulting a positive-reinforcement certified trainer or a vet behaviorist for guidance.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="card small" aria-label="site footer">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+          <div>© <strong>ProgressNow LLC</strong> — A&E Lane</div>
+          <div class="support">Hosted at <em>progressnow.llc</em> · <a href="mailto:support@progressnow.llc">support@progressnow.llc</a></div>
+        </div>
+      </footer>
+    </main>
+
+  </div>
+
+  <script>
+    // Replace placeholders with real values easily:
+    // 1) Set your Amazon product URL (ASIN link) by replacing the href on the Buy button and "View on Amazon".
+    // 2) Replace the product photo area with <img src="images/your-photo.jpg" alt="A&E Lane prong collar">
+    // 3) Embed a how-to video by inserting an iframe for YouTube/Vimeo in the .video-wrap area.
+
+    (function(){
+      // If you'd like to use a short friendly domain text for the QR's printed code, convert it here.
+      const amazonPlaceholder = "https://www.amazon.com/dp/YOUR_PRODUCT_ASIN";
+      // If you want the buttons to be disabled until replaced, uncomment below:
+      // document.getElementById('buyBtn').href = amazonPlaceholder;
+    })();
+  </script>
+</body>
+</html>
